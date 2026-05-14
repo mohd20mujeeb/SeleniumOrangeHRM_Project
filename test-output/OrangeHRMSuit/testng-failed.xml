@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMSuit]">
+  <test thread-count="5" name="OrangeHRMTest(failed)">
+    <classes>
+      <class name="com.OrangeHRM.test.DummyClass2">
+        <methods>
+          <include name="dummyTest"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.test.DummyClass2 -->
+    </classes>
+  </test> <!-- OrangeHRMTest(failed) -->
+</suite> <!-- Failed suite [OrangeHRMSuit] -->

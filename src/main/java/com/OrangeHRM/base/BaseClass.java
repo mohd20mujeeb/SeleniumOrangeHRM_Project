@@ -85,4 +85,9 @@ public class BaseClass {
     public void setDriver(WebDriver driver) {
     	this.driver=driver;
     }
+    //getters  for properties
+    public static  Properties getProp() {
+		return prop;
+	}
+    
 }

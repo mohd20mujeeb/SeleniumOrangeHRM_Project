@@ -70,7 +70,7 @@ public class ActionDriver {
 	}
 
 	// method to check if element is displayed
-	public boolean isElementDisplayed(By by) {
+	public boolean isDisplayed(By by) {
 		try {
 			waitForElementToBeVisible(by);
 			return driver.findElement(by).isDisplayed();

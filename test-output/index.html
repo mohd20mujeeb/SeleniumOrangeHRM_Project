@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-OrangeHRMSuit" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +103,17 @@
                     <div class="method-list-content passed suite-OrangeHRMSuit">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-OrangeHRMSuit" title="com.OrangeHRM.test.DummyClass2" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-OrangeHRMSuit" title="com.OrangeHRM.test.DummyClass" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeHRMSuit" title="com.OrangeHRM.test.DummyClass" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeHRMSuit" title="com.OrangeHRM.test.DummyClass2" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuit" title="com.OrangeHRM.test.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials">verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-OrangeHRMSuit -->
@@ -136,21 +131,14 @@
           <div class="suite-OrangeHRMSuit-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.OrangeHRM.test.DummyClass</span>
+              <span class="class-name">com.OrangeHRM.test.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dummyTest">
-                  </a> <!-- dummyTest -->
-                  <span class="method-name">dummyTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="dummyTest">
-                  </a> <!-- dummyTest -->
-                  <span class="method-name">dummyTest</span>
+                  <a name="verifyLoginWithValidCredentials">
+                  </a> <!-- verifyLoginWithValidCredentials -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,6 +156,14 @@
                   <span class="method-name">dummyTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuit-class-passed -->
+          <div class="suite-OrangeHRMSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.OrangeHRM.test.DummyClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="dummyTest">
@@ -191,14 +187,9 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.OrangeHRM.test.DummyClass&quot;/&gt;
       &lt;class name=&quot;com.OrangeHRM.test.DummyClass2&quot;/&gt;
+      &lt;class name=&quot;com.OrangeHRM.test.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OrangeHRMTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;OrangeHRMTest1&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.OrangeHRM.test.DummyClass&quot;/&gt;
-      &lt;class name=&quot;com.OrangeHRM.test.DummyClass2&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- OrangeHRMTest1 --&gt;
 &lt;/suite&gt; &lt;!-- OrangeHRMSuit --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,10 +201,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">OrangeHRMTest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">OrangeHRMTest1 (2 classes)</span>
+                <span class="test-name">OrangeHRMTest (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,28 +227,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dummyTest')
-data.setCell(0, 2, 'com.OrangeHRM.test.DummyClass')
-data.setCell(0, 3, 16);
+data.setCell(0, 1, 'verifyLoginWithValidCredentials')
+data.setCell(0, 2, 'com.OrangeHRM.test.LoginPageTest')
+data.setCell(0, 3, 5096);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'dummyTest')
-data.setCell(1, 2, 'com.OrangeHRM.test.DummyClass2')
-data.setCell(1, 3, 11);
+data.setCell(1, 2, 'com.OrangeHRM.test.DummyClass')
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'dummyTest')
 data.setCell(2, 2, 'com.OrangeHRM.test.DummyClass2')
-data.setCell(2, 3, 3);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'dummyTest')
-data.setCell(3, 2, 'com.OrangeHRM.test.DummyClass')
-data.setCell(3, 3, 0);
+data.setCell(2, 3, 13);
 window.suiteTableData['OrangeHRMSuit']= { tableData: data, tableDiv: 'times-div-OrangeHRMSuit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-OrangeHRMSuit">
               </div> <!-- times-div-OrangeHRMSuit -->
             </div> <!-- times-div -->
@@ -279,10 +263,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.OrangeHRM.test.DummyClass2</span>
+              <span class="ignored-class-name">com.OrangeHRM.test.LoginPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">loadConfig</span>
                 <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.OrangeHRM.test.DummyClass2</span>
+              <div class="ignored-methods-div">
                 <span class="ignored-method-name">loadConfig</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -302,60 +291,49 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">43 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dummyTest</span>
-                <span class="method-start">10381 ms</span>
+                <span class="method-start">6270 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10397 ms</span>
+                <span class="method-start">6286 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.OrangeHRM.test.DummyClass2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10604 ms</span>
+                <span class="method-start">6478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dummyTest</span>
-                <span class="method-start">18079 ms</span>
+                <span class="method-start">13020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18095 ms</span>
+                <span class="method-start">13036 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.OrangeHRM.test.DummyClass</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.OrangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18297 ms</span>
+                <span class="method-start">13211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupPages</span>
+                <span class="method-start">23586 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">dummyTest</span>
-                <span class="method-start">24714 ms</span>
+                <span class="method-name">verifyLoginWithValidCredentials</span>
+                <span class="method-start">23590 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24732 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.OrangeHRM.test.DummyClass2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">24888 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">dummyTest</span>
-                <span class="method-start">33148 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">33164 ms</span>
+                <span class="method-start">28686 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
